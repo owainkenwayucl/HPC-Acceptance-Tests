@@ -13,7 +13,7 @@ The goals of this acceptance test are:
 
  1. The service must successfully run LAMMPS.
  
- 2. To provide a specimin code to run across the whole cluster to estimate power consumption under a normal load.
+ 2. To provide a specimen code to run across the whole cluster to estimate power consumption under a normal load.
 
 ## Instructions
 
