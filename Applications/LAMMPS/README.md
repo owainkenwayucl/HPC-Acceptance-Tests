@@ -109,12 +109,12 @@ gerun lmp_default -in in.rhodo.12h -log 12.log.$JOB_ID
 
 For 64 cores on Grace, appropriate values are:
 
-| Variable | Value |
-| ------- | ----- |
-| x        | 10   |
-| y        | 10   |
-| z        | 5     |
-| run | 120000 |
+| Variable | Value  |
+| -------- | ------ |
+| x        | 10     |
+| y        | 10     |
+| z        | 5      |
+| run      | 120000 |
 
 If you look at the files `at.sh` and `in.rhodo.at` you will see a suitable example for Myriad.
 
