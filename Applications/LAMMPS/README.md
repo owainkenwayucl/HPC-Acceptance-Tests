@@ -7,6 +7,7 @@
  * `in.rhodo.scaled` - example LAMMPS rhodospin benchmark input file
  * `in.rhodo.at` - example scaled for running single node on Myriad
  * `GPL` - the license
+ * `README.md` - this document
 
 The goals of this acceptance test are:
 
