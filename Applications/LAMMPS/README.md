@@ -5,7 +5,7 @@
  * `data.rhodo` - LAMMPS rhodospin benchmark data
  * `in.rhodo` - LAMMPS rhodospin benchmark input file
  * `in.rhodo.scaled` - example LAMMPS rhodospin benchmark input file
- * `in.rhodo.at` - example scaled for running single node on Myriad
+ * `in.rhodo.at.*` - example scaled for running test on UCL service
  * `GPL` - the license
  * `README.md` - this document
 
