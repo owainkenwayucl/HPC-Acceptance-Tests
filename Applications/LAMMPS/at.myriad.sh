@@ -23,4 +23,4 @@ module load lammps/16Mar18/basic/intel-2018
 # module load lammps/16Mar18/userintel/intel-2018 # Intel optimised alternative
 
 gerun  lmp_default -in in.rhodo.at.myriad -log log.at.$JOB_ID
-# gerun  lmp_default -sf intel -in in.rhodo.at -log log.at.$JOB_ID # Intel optimised alternative
+# gerun  lmp_default -sf intel -in in.rhodo.at.myriad -log log.at.$JOB_ID # Intel optimised alternative
