@@ -14,7 +14,7 @@
 #$ -cwd
 
 # Modify following according to what is suitable for this architecture.
-#$ -pe mpi 7
+#$ -pe mpi 72
 
 # Thomas/Michael test specific project info
 #$ -P Free
