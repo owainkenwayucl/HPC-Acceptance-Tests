@@ -14,7 +14,11 @@
 #$ -cwd
 
 # Modify following according to what is suitable for this architecture.
-#$ -pe mpi 72
+#$ -pe mpi 7
+
+# Thomas/Michael test specific project info
+#$ -P Free
+#$ -A Test_subproject
 
 module load rcps-core/1.0.0
 module load compilers/intel/2018
