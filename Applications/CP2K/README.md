@@ -1,4 +1,4 @@
-#CP2K benchmark
+# CP2K benchmark
 
 To aid with standardisation across UK HPC systems, our CP2K benchmark is identical to the one used by ARCHER, the UK national HPC service.
 
