@@ -1,0 +1,15 @@
+#!/bin/bash -l
+#$-pe mpi {{CORE_COUNT}}
+#$-cwd
+#$-l h_rt=12:00:00
+#$-l memory=3700M
+
+# Some module commands
+{{MODULE_COMMANDS}}
+
+# Any other setup
+{{AOB}}
+
+# Run VASP
+{{MPI_EXEC}} {{MPI_FLAGS}} vasp_gam
+
