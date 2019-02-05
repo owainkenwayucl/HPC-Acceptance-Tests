@@ -20,3 +20,10 @@ Because of the way benchmarks are scored competitively at UCL, and because this 
  score = ------- = 17.927
          200.816
 ```
+
+**Note** - the Archer repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This does not appear to be the case on Grace - see Reference folder for example job running on 96 cores, with 3.7G of RAM per core:
+
+```
+grep "CP2K     " stdout.txt 
+ CP2K                                 1  1.0    0.030    0.049  163.166  163.173
+```
