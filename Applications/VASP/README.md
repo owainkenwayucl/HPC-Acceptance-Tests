@@ -25,4 +25,4 @@ cores|cores\_per\_band|total\_time|mean\_el\_loop\_time|total\_el\_steps|mean\_g
 512|16|6006.947|83.6594|57|560.664|10|56.6392|135.3589|-9641.90580037
 1024|16|4917.756|64.4961|56|418.48|10|54.1285|75.6296|-9641.90580036
 
-
+At UCL, the most recent version of VASP deployed on our services is 5.4.4.
