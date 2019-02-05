@@ -5,3 +5,5 @@ To aid with standardisation across UK HPC systems, our GROMACS benchmark is iden
 Details of how to build and run the benchmark may be found in the ARCHER repository here: https://github.com/hpc-uk/archer-benchmarks/tree/master/apps/GROMACS
 
 For the purposes of scoring in UCL procurements, the important result is the performance in nanoseconds/day.
+
+At UCL the most recent version of GROMACS installed on our services is 2018.3.
