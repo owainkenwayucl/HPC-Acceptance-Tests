@@ -1,0 +1,115 @@
+GERun: 
+GERun: Note: Lines like this one prefixed with "GERun:" are for debugging
+GERun:       purposes only and you do not need to report them to rc-support
+GERun:       unless your job fails for other reasons.
+GERun: 
+GERun: 
+GERun: Grid Engine parallel launcher abstraction layer version iv (public)
+GERun: Dr Owain Kenway, RCAS, RITS, ISD, UCL, 7th of February, 2018
+GERun: 
+GERun: For licensing terms, see LICENSE.txt
+GERun: 
+GERun: Using environment: openmpi-sge
+GERun: Running on 96 slots:
+GERun:    96 MPI tasks
+GERun:     1 threads per task
+GERun: TMPDIR=/tmpdir/job/413384.undefined
+GERun: 
+GERun: Contents of machinefile:
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-008
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-103
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-460
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-563
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-257
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: node-r99a-643
+GERun: 
