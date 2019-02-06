@@ -9,4 +9,4 @@ In previous procurements our selection of tests has been reasonable but arbitrar
 
  * Applications (VASP, GROMACS, CP2K, LAMMPS)
 
-
+**Clarification on optimisations** - Vendors are free to change runtime and or compile time options of any benchmark so long as the science performed does not change.
