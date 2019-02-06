@@ -21,9 +21,8 @@ Because of the way benchmarks are scored competitively at UCL, and because this 
          200.816
 ```
 
-**Note** - the Archer repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This does not appear to be the case on Grace - see Reference folder for example job running on 96 cores, with 3.7G of RAM per core:
+**Clarification** - the Archer repository warns that this benchmark should be run on 128 nodes or otherwise it will run out of memory.  This is true for the HFX part of the benchmark which is for a much larger system than we are procuring for the Grace procurement.
 
-```
-grep "CP2K     " stdout.txt 
- CP2K                                 1  1.0    0.030    0.049  163.166  163.173
-```
+For the Grace procurement it is sufficient to run the first (setup) part of the benchmark (input_bulk_B88_3.inp).  This part of the benchmark was used by the Archer team to compare Archer and Thomas and is much smaller.
+
+We currently have CP2K version 4.1 and 5.1 deployed on Grace.  It is up to the vendor which version they use.
