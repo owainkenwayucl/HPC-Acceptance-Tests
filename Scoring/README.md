@@ -5,7 +5,10 @@ In all future procurements, a subset of the benchmarks in this repository will b
 1. Populate a provided spreadsheet with the desired value.
 2. Provide a log file for the qualifying run for debugging purposes.
 
+**Note** - Scores will be compared against reference systems and scores which fall outside the expected range will be subject to clarification questions and if sufficient explanation is not provided, disqualification. 
+
 As an example of how this would work, imagine a tender for a new machine with three benchmarks: Pi, Mandelbrot, and Numpy.  Four vendors (Cyberdyne Systems, Gibson, Multivac and HAL) all bid and provide the following scores:
+
 
 |Vendor   | Pi  | Mandelbrot | Numpy | 
 |---------|-----|------------|-------|
