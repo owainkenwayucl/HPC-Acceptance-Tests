@@ -32,5 +32,5 @@ The scores then work out as:
 |HAL      |38.4615384615 | 20       |3.4246575342 |61.8861959958|
 |Multivac |50            | 24       |25           |99           |
 
-** * Benchmarks which are failed score 0.  This may be determined from the log files or not providing a result. * **
+*Benchmarks which are failed score 0.  This may be determined from the log files or not providing a result.*
 
