@@ -9,7 +9,11 @@ sha1="0d520e86fda2886a5faca4e1d1171a666a35fe4c"
 
 mkdir downloads
 cd downloads
-wget "$url"
+if [ -f 10-lammps-bench ]; then
+   echo ">>> Existing download found - using. <<<"
+else
+   wget "$url"
+fi
 
 md5sum -c <<< "$md5 10-lammps-bench" 
 sha1sum -c <<< "$sha1 10-lammps-bench"
