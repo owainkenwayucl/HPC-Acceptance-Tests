@@ -29,4 +29,6 @@ cd lammps/1400k-atoms
 
 patch < ../../patches/benchmark.in.intel.patch
 
+cp ../../scripts/*.sh .
+
 cd ../..
