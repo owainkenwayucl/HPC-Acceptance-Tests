@@ -18,4 +18,8 @@ cd ..
 
 tar xvf downloads/10-lammps-bench
 cp lammps/1400k-atoms/benchmark.in lammps/1400k-atoms/benchmark.in.intel
-patch < benchmark.in.intel.patch
+cd lammps/1400k-atoms
+
+patch < ../../patches/benchmark.in.intel.patch
+
+cd ../..
