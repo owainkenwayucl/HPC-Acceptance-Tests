@@ -17,4 +17,5 @@ sha1sum -c <<< "$sha1 10-lammps-bench"
 cd ..
 
 tar xvf downloads/10-lammps-bench
-
+cp lammps/1400k-atoms/benchmark.in lammps/1400k-atoms/benchmark.in.intel
+patch < benchmark.in.intel.patch
