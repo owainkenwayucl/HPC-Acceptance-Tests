@@ -1,0 +1,10 @@
+--- lammps/1400k-atoms/benchmark.in.intel.orig	2020-03-17 14:29:04.000000000 +0000
++++ lammps/1400k-atoms/benchmark.in.intel	2020-03-17 14:28:39.000000000 +0000
+@@ -15,6 +15,7 @@
+ pair_style      lj/charmm/coul/long 10 12
+ pair_modify     mix arithmetic
+ kspace_style    pppm 1e-4
++kspace_modify   diff ad
+ 
+ read_data       benchmark.data
+ 
