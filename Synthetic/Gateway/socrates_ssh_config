@@ -1,0 +1,31 @@
+#Host kathleen.tunnel
+#        User ccear86
+#        HostName kathleen.rc.ucl.ac.uk
+#        ProxyCommand ssh -i ccear86_id_rsa -W %h:%p ccear86@socrates.ucl.ac.uk
+#        #ProxyCommand ssh -i ccear86_id_rsa -W %h:%p ccear86@ssh.rc.ucl.ac.uk
+
+Host michael.tunnel
+        User ccear86
+        HostName michael.rc.ucl.ac.uk
+        ProxyCommand ssh -i ccear86_id_rsa -W %h:%p ccear86@socrates.ucl.ac.uk 2>/dev/null
+
+#Host myriad.tunnel
+#        User ccear86
+#        HostName myriad.rc.ucl.ac.uk
+#        ProxyCommand ssh -i ccear86_id_rsa -W %h:%p ccear86@ssh.rc.ucl.ac.uk
+
+Host thomas.tunnel
+        User ccear86
+        HostName thomas.rc.ucl.ac.uk
+        ProxyCommand ssh -i ccear86_id_rsa -W %h:%p ccear86@socrates.ucl.ac.uk 2>/dev/null
+
+Host grace.tunnel
+        User ccear86
+        HostName grace.rc.ucl.ac.uk
+        ProxyCommand ssh -i ccear86_id_rsa -W %h:%p ccear86@socrates.ucl.ac.uk 2>/dev/null
+
+#Host legion.tunnel
+#        User ccear86
+#        HostName legion.rc.ucl.ac.uk
+#        ProxyCommand ssh -i ccear86_id_rsa -W %h:%p ccear86@ssh.rc.ucl.ac.uk
+#        ProxyCommand ssh -W %h:%p ccear86@ssh.rc.ucl.ac.uk
